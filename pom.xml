@@ -56,4 +56,12 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+        <repository>
+            <!--必须与 settings.xml 的 id 一致-->
+            <id>fanfantt-hello-world-maven</id>
+            <name>maven</name>
+            <url>https://fanfantt-maven.pkg.coding.net/repository/hello-world/maven/</url>
+        </repository>
+    </distributionManagement>
 </project>
