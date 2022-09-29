@@ -2,10 +2,11 @@ package com.robustel.application;
 
 import lombok.Data;
 
+import java.io.Serializable;
 import java.util.Objects;
 
 @Data
-public class HelloData {
+public class HelloData implements Serializable {
     private String greeting;
 
     public HelloData(String greeting) {
