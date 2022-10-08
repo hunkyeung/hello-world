@@ -17,7 +17,7 @@ public class HelloData implements Serializable {
         if (Objects.isNull(nickName)) {
             return new HelloData("Hello, World!");
         } else {
-            return new HelloData(String.format("Hello, %s!", nickName));
+            return new HelloData(String.format("Hi, %s!", nickName));
         }
     }
 }
