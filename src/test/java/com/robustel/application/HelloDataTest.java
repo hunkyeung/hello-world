@@ -14,6 +14,6 @@ class HelloDataTest {
     @Test
     void Given_ANickname_When_Hello_Then_Expected() {
         System.out.println(".........................");
-        assertEquals("Hello, robustel!", HelloData.of("robustel").getGreeting());
+        assertEquals("Hi, robustel!", HelloData.of("robustel").getGreeting());
     }
 }
